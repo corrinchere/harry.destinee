@@ -1,8 +1,14 @@
-body {
-    background-color: #fdf5d1;
+#index {
+    /* background-color: #fdf5d1; */
     width:100%;
     margin: 0 auto;
     min-width: 250;
+
+}
+
+.headermain {
+    background-color: #fff;
+    padding: 1% 0 0 0;
 }
 
 .main {
@@ -10,14 +16,57 @@ body {
     width: 92%;
     margin: 0 auto;
     padding: 1% 0;
-    box-shadow: 0 0 20px #746f5e;
+    /* box-shadow: 0 0 20px #746f5e; */
 }
 
 .main-page-title {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
     font-size: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+}
+
+.title-section {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.flex-list {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    /* border-top: cadetblue 5px solid;
+    border-bottom: cadetblue 5px solid; */
+}
+
+.nav-list-items {
+    font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.nav-list-items:hover {
+    /* transition: ease-in-out .5s; */
+    text-decoration: underline cadetblue solid 5px;
+    color: #81817d;
+    
 }
 
 .fullimage {
@@ -48,7 +97,7 @@ body {
 
 .ourstory {
     text-align: center;
-    font-size: large;
+    font-size: 20px;
     line-height: 30px;
 }
 
@@ -56,29 +105,93 @@ body {
     display: none;
     font-family: 'Playfair Display', serif;
     font-size: large;
+
+}
+
+
+.half-section {
     
-
-}
-
-.mini-sec-header {
-    text-align: center;
-    font-size: 30px;
-}
-
-.mini-sec {
-    margin: 5% auto;
-    width: 70%;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 60%;
+    margin: 100px auto;
 }
 
-.mini-sec-titles {
+.split-half {
+    /* text-align: center; */
+}
+
+
+
+.join-text {
+    font-size: 50px;
     text-align: center;
 }
+
+
+#monthDate {
+    font-size: 50px;
+}
+
+#right-half {
+    border-left: black solid 5px;
+    /* border-radius: 3px; */
+}
+
+.right-info {
+    text-align: center;
+    /* font-size: 40px; */
+}
+
+
 
 .contact {
     width: 50%;
     text-align: center;
     margin: 3% auto;
+}
+
+@media only screen and (max-width: 500px){
+    .flex-list {
+        display: none;
+    }
+
+    .half-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #right-half {
+        border-left: none;
+        border-top: black solid 5px;
+        /* border-radius: 3px; */
+    }
+
+
+}
+
+/* CEREMONY PAGE */
+
+#ceremony {
+    background-color:coral;
+}
+
+/* WEDDING PARTY PAGE */
+
+#wedding-party {
+    background-color:cornflowerblue;
+}
+
+/* REGISTRY PAGE */
+
+#registry {
+    background-color:darkgreen;
+}
+
+/* FAQS PAGE */
+
+#faqs {
+    background-color:darksalmon;
 }
