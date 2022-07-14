@@ -63,7 +63,7 @@ a:visited {
 
 .nav-list-items:hover {
     /* transition: ease-in-out .5s; */
-    text-decoration: underline cadetblue solid 5px;
+    text-decoration: underline #5f9ea0 solid 5px;
     color: #81817d;
     
 }
@@ -145,21 +145,53 @@ a:visited {
 }
 
 
-
 .contact {
     width: 50%;
     text-align: center;
     margin: 3% auto;
 }
 
+#questions {
+    background-color: #5f9ea0;
+    padding: 1% 0;
+    margin: 200px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#email-signoff {
+    color: #fcf2e6;
+}
+
+#email-signoff:hover {
+    /* transition: ease-in-out .5s; */
+    text-decoration: underline #5f9ea0 solid 5px;
+    color: #81817d;  
+    cursor: pointer; 
+}
+
+#mini-dropdown {
+    display:none;
+}
+
+#aboutme {
+    cursor: pointer;
+}
+
+#ham-menu {
+    display:none;
+}
+
 @media only screen and (max-width: 900px){
 
     #index {
-        /* background-color: #81817d; */
+        background-color: #81817d;
     }
 
     .flex-list {
-        display: none;
+        width: 95%;
+        min-width: 600px;
+        font-size: 30px;
     }
 
     .half-section {
@@ -177,12 +209,39 @@ a:visited {
 
 }
 
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 750px){
 
     #index {
-        /* background-color: #dfa18d; */
+        background-color: #4a7d8a;
     }
+
+    .flex-list {
+        width: 93%;
+        /* min-width: 600px; */
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        font-family: 'Playfair Display', serif;
+        
+        /* border-top: cadetblue 5px solid;
+        border-bottom: cadetblue 5px solid; */
+    }
+    
+    .nav-list-items {
+        font-size: 22px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+
+    #index {
+        background-color: #dfa18d;
+    }
+
     .flex-list {
         display: none;
     }
@@ -206,7 +265,6 @@ a:visited {
         /* box-shadow: 0 0 20px #746f5e; */
     }
 
-    
 
     .storySection {
         width: 90%;
@@ -215,8 +273,98 @@ a:visited {
         font-family: 'Playfair Display', serif;
     }
 
+    #ham-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right:0;
+        display: block;
+        float:right;
+        margin: 2%;
+        cursor: pointer;
+        width: 8%;
+        
+    }
 
+    #mini-dropdown {
+        display: block;
+    }
 
+    #mini-dropdown {
+        background-color: #5f9ea0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: 0;
+        opacity: 0;
+        overflow-y: scroll;
+        /* padding: 15px 30px; */
+        position: fixed;
+        transition: all 0.35s ease-in-out;
+        transform: translateY(-100%);
+        z-index: 10;
+    }
+    
+    #mini-dropdown.toggle-open {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+
+    #minilist {
+        width: 90%;
+        clear: right;
+       margin: 150px auto 0 auto;
+       text-align: center;
+    }
+
+    .mini-items {
+        font-family: 'Abril Fatface', cursive;
+        color: #fff;
+        margin: 10%;
+        font-size: 30px;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        align-items: center;
+    }
+
+    .link-list {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .link-list:visited {
+        color: #fff;
+    } 
+
+    #exit-mini {
+        width:10%;
+        float: right;
+        margin: 5%;
+    }
+
+    #exit-mini:hover {
+        cursor: pointer;
+        /* box-shadow: 0px 5px 10px #fff; */
+    }
+
+    a:link {
+        text-decoration: none;
+        color: #fff;
+        
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color: #fff;
+        
+    }
+
+    .mini-items:hover {
+        /* transition: ease-in-out .5s; */
+        text-decoration: underline #fff solid 5px;
+        color: #81817d;
+        
+    }
 
 }
 
@@ -264,20 +412,5 @@ a:visited {
 
 
 
-/* WEDDING PARTY PAGE */
-
-#wedding-party {
-    background-color:cornflowerblue;
-}
-
-/* REGISTRY PAGE */
-
-#registry {
-    background-color:darkgreen;
-}
 
 /* FAQS PAGE */
-
-#faqs {
-    background-color:darksalmon;
-}
