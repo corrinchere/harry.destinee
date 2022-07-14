@@ -1,7 +1,7 @@
 /* CEREMONY PAGE */
 
 #ceremony {
-    background-color:#fcf2e6;
+    background-color:#f8f5f1;
     width:100%;
     margin: 0 auto;
     min-width: 250;
@@ -13,9 +13,9 @@
 }
 
 .inverted-title {
-    background-color: #535252;
+    background-color: #5f9ea0;
     padding: .2% 0;
-    box-shadow: 0px 5px 10px #000000;
+    /* box-shadow: 0px 5px 10px #000000; */
 }
 
 #header-ceremony {
@@ -36,6 +36,7 @@
 #cere-title {
     text-align: center;
     font-family: 'Abril Fatface', cursive;
+    
     margin-top: 8%;
     font-size: 40px;
 }
@@ -47,6 +48,7 @@
 
 #the-main-date {
     font-family: 'Abril Fatface', cursive;
+    color: #888786;
     text-align: center;
     font-size: 35px;
     margin-top: 5%;
@@ -72,10 +74,91 @@ a:visited {
 a:hover {
     /* transition: ease-in-out .5s; */
     text-decoration: underline #5f9ea0 solid 5px;
-    color: #81817d;   
+    color: #81817d;  
+    cursor: pointer; 
+}
+
+button {
+    padding: 1% 30px;
+    border: #5f9ea0 solid 2px;
+    border-radius: 5px;
+    background-color: #5f9ea0;
+    color: #fcf2e6;
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    margin: 5% 0;
+    box-shadow: 0px 10px 15px #666664;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 .click-style {
     color: #5f9ea0;
 }
 
+
+#buttonlink:link {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#buttonlink:visited {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#buttonlink:hover {
+    /* transition: ease-in-out .5s; */
+    color: #000;  
+    cursor: pointer; 
+}
+
+#questions {
+    background-color: #5f9ea0;
+    padding: 1% 0;
+    margin: 450px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#email-signoff {
+    color: #fcf2e6;
+}
+
+#email-signoff:hover {
+    /* transition: ease-in-out .5s; */
+    text-decoration: underline #5f9ea0 solid 5px;
+    color: #81817d;  
+    cursor: pointer; 
+}
+
+@media only screen and (max-width: 500px){
+
+    #the-info {
+        width: 85%;
+        margin: auto;
+    }
+
+    #cere-title {
+        margin-bottom: 10%;
+    }
+
+    #the-main-date {
+        
+        margin-top: 10%;
+    }
+
+    button {
+        margin: 10% 0;
+    }
+
+    #questions {  
+        font-size: 12px;
+        margin: 150px 0 0 0;
+    }
+
+}
