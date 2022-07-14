@@ -1,0 +1,283 @@
+#index {
+    /* background-color: #fdf5d1; */
+    width:100%;
+    margin: 0 auto;
+    min-width: 250;
+
+}
+
+.headermain {
+    background-color: #fff;
+    padding: 1% 0 0 0;
+}
+
+.main {
+    background-color: #fff;
+    width: 92%;
+    margin: 0 auto;
+    padding: 1% 0;
+    /* box-shadow: 0 0 20px #746f5e; */
+}
+
+.main-page-title {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.title-section {
+    width: 90%;
+    margin: auto;
+}
+
+
+.flex-list {
+    width: 70%;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+    /* border-top: cadetblue 5px solid;
+    border-bottom: cadetblue 5px solid; */
+}
+
+.nav-list-items {
+    font-size: 25px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.nav-list-items:hover {
+    /* transition: ease-in-out .5s; */
+    text-decoration: underline cadetblue solid 5px;
+    color: #81817d;
+    
+}
+
+.fullimage {
+    max-width: 900px;
+    margin: auto;
+       
+}
+
+.heroimage {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 5px; 
+   
+}
+
+.storySection {
+    width: 70%;
+    margin: 5% auto;
+    max-width: 850px;
+    font-family: 'Playfair Display', serif;
+}
+
+.storytitle {
+    text-align: center;
+    font-size: 30px;
+}
+
+.ourstory {
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.wedinfo {
+    display: none;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+
+}
+
+
+.half-section {
+    font-family: 'Abril Fatface', cursive;
+    color: #999999;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    width: 60%;
+    margin: 100px auto;
+}
+
+.split-half {
+    /* text-align: center; */
+}
+
+
+
+.join-text {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#monthDate {
+    font-size: 50px;
+}
+
+#right-half {
+    border-left: #999999 solid 5px;
+    /* border-radius: 3px; */
+}
+
+.right-info {
+    text-align: center;
+    /* font-size: 40px; */
+}
+
+
+
+.contact {
+    width: 50%;
+    text-align: center;
+    margin: 3% auto;
+}
+
+@media only screen and (max-width: 900px){
+
+    #index {
+        /* background-color: #81817d; */
+    }
+
+    .flex-list {
+        display: none;
+    }
+
+    .half-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #right-half {
+        border-left: none;
+        border-top: black solid 5px;
+        /* border-radius: 3px; */
+    }
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+
+    #index {
+        /* background-color: #dfa18d; */
+    }
+    .flex-list {
+        display: none;
+    }
+
+    .half-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    #right-half {
+        border-left: none;
+        border-top: black solid 5px;
+        /* border-radius: 3px; */
+    }
+
+    .main {
+        
+        width: 98%;
+
+        /* box-shadow: 0 0 20px #746f5e; */
+    }
+
+    
+
+    .storySection {
+        width: 90%;
+        margin: 5% auto;
+        max-width: 850px;
+        font-family: 'Playfair Display', serif;
+    }
+
+
+
+
+}
+
+@media only screen and (max-width: 300px){
+
+    #index {
+        /* background-color: #62b46d; */
+    }
+
+    .main-page-title {
+        font-size: 40px;
+
+
+    }
+
+    .flex-list {
+        display: none;
+    }
+
+    .half-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        margin: 50px auto;
+    }
+
+    #right-half {
+        border-left: none;
+        border-top: black solid 5px;
+        /* border-radius: 3px; */
+    }
+
+    .join-text {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    #monthDate {
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+}
+
+
+
+/* WEDDING PARTY PAGE */
+
+#wedding-party {
+    background-color:cornflowerblue;
+}
+
+/* REGISTRY PAGE */
+
+#registry {
+    background-color:darkgreen;
+}
+
+/* FAQS PAGE */
+
+#faqs {
+    background-color:darksalmon;
+}
