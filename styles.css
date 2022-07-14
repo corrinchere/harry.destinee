@@ -33,7 +33,6 @@
 }
 
 
-
 .flex-list {
     width: 70%;
     max-width: 900px;
@@ -110,7 +109,8 @@ a:visited {
 
 
 .half-section {
-    
+    font-family: 'Abril Fatface', cursive;
+    color: #999999;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -135,7 +135,7 @@ a:visited {
 }
 
 #right-half {
-    border-left: black solid 5px;
+    border-left: #999999 solid 5px;
     /* border-radius: 3px; */
 }
 
@@ -250,23 +250,19 @@ a:visited {
     }
 
     .join-text {
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
     }
 
     #monthDate {
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
     }
 
 
 }
 
-/* CEREMONY PAGE */
 
-#ceremony {
-    background-color:coral;
-}
 
 /* WEDDING PARTY PAGE */
 
