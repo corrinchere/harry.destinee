@@ -303,8 +303,8 @@ a:hover {
     }
     
     .title-option-box:hover {
-        background-color:darkgray;
-        border-radius: 5px;
+        /* background-color:darkgray;
+        border-radius: 5px; */
     
     }
     
@@ -373,7 +373,7 @@ a:hover {
     
     .option-title {
         font-family: 'Abril Fatface', cursive;
-        font-size: 40px;
+        font-size: 45px;
         margin-top: 15px;
     
     }
