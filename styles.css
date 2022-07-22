@@ -371,7 +371,7 @@ a:visited {
 @media only screen and (max-width: 300px){
 
     #index {
-        /* background-color: #62b46d; */
+        background-color: #62b46d;
     }
 
     .main-page-title {
@@ -384,7 +384,7 @@ a:visited {
 
     .main-page-title {
         font-size: 30px;
-        letter-spacing: 2px;
+        letter-spacing: 1.5px;
 
 
     }
