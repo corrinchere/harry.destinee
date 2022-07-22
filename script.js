@@ -7,3 +7,6 @@ document.getElementById('ham-menu').addEventListener('click', function(){
 document.getElementById('mini-close').addEventListener('click', function(){
     document.getElementById('mini-dropdown').classList.remove('toggle-open');
 } )
+
+
+
