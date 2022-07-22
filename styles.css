@@ -375,7 +375,16 @@ a:visited {
     }
 
     .main-page-title {
-        font-size: 35px;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+        letter-spacing: 3px;
+        font-size: 45px;
+        margin-bottom: 40px;
+    }
+
+    .main-page-title {
+        font-size: 30px;
+        letter-spacing: 2px;
 
 
     }

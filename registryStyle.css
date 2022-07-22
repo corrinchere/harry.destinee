@@ -154,6 +154,8 @@ a:hover {
     font-size: 20px;
 }
 
+
+
 #email-signoff {
     color: #fcf2e6;
 }
@@ -319,7 +321,7 @@ a:hover {
     }
 
     #questions {  
-        font-size: 12px;
+        font-size: 20px;
         margin: 600px 0 0 0;
     }
 
@@ -460,8 +462,8 @@ a:hover {
 
 
     #questions {  
-        font-size: 12px;
-        margin: 150px 0 0 0;
+        font-size: 20px;
+        margin: 50px 0 0 0;
     }
 
     #backimage {
