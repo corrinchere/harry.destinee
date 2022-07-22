@@ -1,23 +1,362 @@
-
-img {
-    width: 50px;
-    margin-top: 5%;
-    margin-left: 3%;
+#wedding-party {
+    /* background-color:#f8f5f1; */
+    width:100%;
+    margin: 0 auto;
+    min-width: 250;
+    
 }
 
-img:hover {
+#backimage:hover {
     cursor: pointer;
 }
 
-
-h1 {
-    text-align: center;
-    font-family: 'Abril Fatface', cursive;
-    margin: 20%;
-    font-size: 50px;
-    color: #fff;
+#backimage {
+    display: block;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: block;
+    float:right;
+    margin-top: 30px;
+    margin-left: 30px;
+    cursor: pointer;
+    width: 50px;
 }
 
-body {
-    background-color:cornflowerblue;
+
+
+.inverted-title {
+    background-color: #5f9ea0;
+    padding: .2% 0;
+    margin-bottom: 0;
+    box-shadow: 0px 5px 10px #2d4849;
+}
+
+#header-party {
+    font-family: 'Abril Fatface', cursive;
+    color: #fcf2e6;
+    text-align: right;
+    padding-top: 0;
+    padding-right: 5%;
+    font-size: 45px;
+}
+
+#body-text {
+    width: 80%;
+    margin: auto;
+}
+
+.party-title-header {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.most-likely-title {
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    text-align: center;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+
+}
+
+#most-likely-box {
+    background-color: #5f9ea0;
+   
+    /* width: 100%; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#photo-box-container {
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    /* background-color: darkgoldenrod; */
+    /* grid-gap: 5px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+     */
+}
+
+.photo-box {
+    background-color: rgb(139, 34, 34);
+    /* width: 200px; */
+}
+
+.person-image {
+    width: 250px;
+    border-radius: 3px;
+    margin: 15px;
+    /* border: solid #fff 5px; */
+}
+
+#one-off-image {
+    width: 250px;
+    margin: auto;
+}
+
+#image-box {
+    width: 100%;
+}
+
+
+#questions {
+    background-color: #5f9ea0;
+    padding: 1% 0;
+    margin: 600px 0 0 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+#email-signoff {
+    color: #fcf2e6;
+}
+
+#email-signoff:hover {
+    /* transition: ease-in-out .5s; */
+    text-decoration: underline #5f9ea0 solid 5px;
+    color: #81817d;  
+    cursor: pointer; 
+}
+
+@media only screen and (max-width: 1150px){
+
+    /* #wedding-party {
+        background-color: #61c47a;
+    } */
+
+    
+    
+    .person-image {
+        width: 300px;
+        border-radius: 3px;
+        margin: 15px;
+        /* border: solid #fff 5px; */
+    }
+    
+    
+    
+    #one-off-image {
+        width: 300px;
+        margin: auto;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 950px){
+
+    /* #wedding-party {
+        background-color: #e09dc7;
+    } */
+
+    .person-image {
+        width: 275px;
+        border-radius: 3px;
+        margin: 15px;
+
+    }
+      
+    
+    #one-off-image {
+        width: 275px;
+        margin: auto;
+    }
+
+    #image-box {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 850px){
+    /* #wedding-party {
+        background-color: darkkhaki;
+    } */
+
+    .person-image {
+        width: 255px;
+        border-radius: 3px;
+        margin: 15px;
+
+    }
+      
+
+
+}
+
+
+@media only screen and (max-width: 800px){
+
+    /* #wedding-party {
+        background-color:darkred;
+    } */
+
+    #photo-box-container {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        /* background-color: darkgoldenrod; */
+        /* grid-gap: 5px; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+         */
+    }
+
+    .photo-box {
+        width: 100%;
+    }
+
+    .person-image {
+        width: 225px;
+        border-radius: 3px;
+        margin: 10px;
+
+    }
+
+    #one-off-image {
+        width: 225px;
+        margin: auto;
+    }
+
+    #image-box {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 620px){
+    
+    /* #wedding-party {
+        background-color:rgb(189, 221, 221);
+    } */
+
+    #backimage {
+        
+        margin-top: 15px;
+        margin-left: 10px;
+        
+    }
+
+    #body-text {
+        width: 90%;
+        margin: auto;
+    }
+
+    .most-likely-title {
+        font-family: 'Abril Fatface', cursive;
+        color: #ffffff;
+        font-size: 40px;
+        text-align: center;
+        /* margin-top: 50px; */
+        margin-bottom: 50px;
+    
+    }
+
+    .person-image {
+        width: 300px;
+        border-radius: 3px;
+        margin: 10px;
+
+    }
+
+    #one-off-image {
+        width: 300px;
+        border-radius: 3px;
+        margin: auto;
+    }
+
+    #image-box {
+        width: 100%;
+    }
+
+    #questions {
+        background-color: #5f9ea0;
+        padding: 1% 0;
+        margin: 300px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 300px){
+    
+    /* #wedding-party {
+        background-color:rgb(255, 240, 37);
+    } */
+
+    #backimage {
+        
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 40px;
+        
+    }
+
+
+    #body-text {
+        width: 95%;
+        margin: auto;
+    }
+
+    #photo-box-container {
+        width: 100%;
+        margin: auto;
+        align-items: center;
+        /* background-color: darkgoldenrod; */
+        /* grid-gap: 5px; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+         */
+    }
+
+    .person-image {
+        width: 250px;
+        border-radius: 3px;
+        margin: 10px;
+
+    }
+
+    #one-off-image {
+        width: 250px;
+        margin: auto;
+        margin: 10px;
+    }
+
+    #image-box {
+        width: 100%;
+    }
+
+    #questions {
+        background-color: #5f9ea0;
+        padding: 1% 0;
+        margin: 200px 0 0 0;
+        text-align: center;
+        font-size: 20px;
+    }
+
+
+
 }
