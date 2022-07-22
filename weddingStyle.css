@@ -71,12 +71,14 @@
     /* width: 100%; */
     padding-top: 10px;
     padding-bottom: 10px;
+    /* border-radius: 3px; */
 }
 
 #photo-box-container {
     width: 90%;
     margin: auto;
     align-items: center;
+    /* background-color: #666464; */
     /* background-color: darkgoldenrod; */
     /* grid-gap: 5px; */
     
@@ -88,26 +90,52 @@
      */
 }
 
-.photo-box {
-    background-color: rgb(139, 34, 34);
+.photobox {
+    background-color: #1c3536;
+    border-radius: 5px;
+    padding: 10px 15px 0 10px;
+    height: 375px;
+    margin: 10px;
+    /* z-index: 10; */
+    
     /* width: 200px; */
+}
+
+.img-name {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.likely-award {
+    width: 250px;
+    text-align: center;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 18px;
+    /* background-color: #666464; */
+
 }
 
 .person-image {
     width: 250px;
     border-radius: 3px;
-    margin: 15px;
+    /* margin: 5px; */
     /* border: solid #fff 5px; */
 }
 
-#one-off-image {
+/* #one-off-image {
     width: 250px;
     margin: auto;
-}
+} */
 
-#image-box {
+/* #image-box {
     width: 100%;
-}
+} */
 
 
 #questions {
@@ -129,66 +157,156 @@
     cursor: pointer; 
 }
 
-@media only screen and (max-width: 1150px){
+
+@media only screen and (max-width: 1250px){
 
     /* #wedding-party {
-        background-color: #61c47a;
-    } */
+       background-color: #3e4ee6;
+   }  */
 
+   .person-image {
+    width: 300px;
+    border-radius: 3px;
+    /* margin: 15px; */
+    /* border: solid #fff 5px; */
+}
+
+.photobox {
+    /* background-color: #666464; */
+    border-radius: 5px;
+    padding: 10px 15px;
+    height: 400px;
+    margin: 10px;
+    /* z-index: 10; */
     
-    
+    /* width: 200px; */
+}
+
+   
+
+}
+
+
+@media only screen and (max-width: 1150px){
+
+     /* #wedding-party {
+        background-color: #61c47a;
+    }  */
+ 
     .person-image {
         width: 300px;
         border-radius: 3px;
-        margin: 15px;
+        margin: 5px;
         /* border: solid #fff 5px; */
     }
-    
-    
-    
-    #one-off-image {
+
+    .likely-award {
         width: 300px;
+        text-align: center;
+        margin-top: 0x;
+    }
+       
+    
+
+    .photobox {
+        /* background-color: #666464; */
+        border-radius: 5px;
+        padding: 10px 10px;
+        height: 425px;
+        /* margin: 5px; */
+        /* z-index: 10; */
+        
+    }
+
+    #photo-box-container {
+        width: 95%;
         margin: auto;
-        margin: auto;
+        align-items: center;
+        /* background-color: #666464; */
+        /* background-color: darkgoldenrod; */
+        /* grid-gap: 5px; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+         */
     }
 
 }
 
 @media only screen and (max-width: 950px){
 
-    /* #wedding-party {
+     /* #wedding-party {
         background-color: #e09dc7;
-    } */
+    }  */
 
     .person-image {
-        width: 275px;
+        width: 270px;
         border-radius: 3px;
-        margin: 15px;
+        margin: 10px;
 
+    }
+
+    .likely-award {
+        width: 275px;
+        text-align: center;
+        margin-top: 0x;
     }
       
     
-    #one-off-image {
-        width: 275px;
-        margin: auto;
-    }
+   
 
     #image-box {
         width: 100%;
     }
 
+    #photo-box-container {
+        width: 95%;
+        margin: auto;
+        align-items: center;
+        /* background-color: #666464; */
+        /* background-color: darkgoldenrod; */
+        /* grid-gap: 5px; */
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+         */
+    }
+
+    .photobox {
+        /* background-color: #666464; */
+        border-radius: 5px;
+        padding: 10px 10px 0 10px;
+        height: 400px;
+        margin: 5px;
+        /* z-index: 10; */
+        
+        /* width: 200px; */
+    }
+
 }
 
 @media only screen and (max-width: 850px){
-    /* #wedding-party {
+     /* #wedding-party {
         background-color: darkkhaki;
-    } */
+    }  */
 
     .person-image {
         width: 255px;
         border-radius: 3px;
-        margin: 15px;
+        margin: 5px;
 
+    }
+
+    .likely-award {
+        width: 250px;
+        text-align: center;
+        margin-top: 0x;
     }
       
 
@@ -200,7 +318,7 @@
 
     /* #wedding-party {
         background-color:darkred;
-    } */
+    }  */
 
     #photo-box-container {
         width: 100%;
@@ -217,21 +335,31 @@
          */
     }
 
-    .photo-box {
-        width: 100%;
+    .photobox {
+        height: 375px;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
+
+
 
     .person-image {
         width: 225px;
         border-radius: 3px;
-        margin: 10px;
+        margin: 5px;
 
     }
 
-    #one-off-image {
+    .likely-award {
+        width: 225px;
+        text-align: center;
+        margin-top: 0x;
+    }
+
+    /* #one-off-image {
         width: 225px;
         margin: auto;
-    }
+    } */
 
     #image-box {
         width: 100%;
@@ -240,11 +368,11 @@
 
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 660px){
     
     /* #wedding-party {
         background-color:rgb(189, 221, 221);
-    } */
+    }  */
 
     #backimage {
         
@@ -275,6 +403,12 @@
 
     }
 
+    .likely-award {
+        width: 300px;
+        text-align: center;
+        margin-top: 0x;
+    }
+
     #one-off-image {
         width: 300px;
         border-radius: 3px;
@@ -293,6 +427,10 @@
         font-size: 20px;
     }
 
+    .photobox {
+        height: 425px;
+    }
+
 
 
 }
@@ -301,7 +439,7 @@
     
     /* #wedding-party {
         background-color:rgb(255, 240, 37);
-    } */
+    }  */
 
     #backimage {
         
@@ -337,6 +475,12 @@
         border-radius: 3px;
         margin: 10px;
 
+    }
+
+    .likely-award {
+        width: 250px;
+        text-align: center;
+        margin-top: 0x;
     }
 
     #one-off-image {
